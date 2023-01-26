@@ -1,0 +1,567 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  width: 150px;
+  padding: 15px 20px;
+  height: 45px;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  border-radius: 3px;
+  background-color: rgb(42, 146, 181);
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type=email] {
+  height: 30px;
+  width: 240px;
+  border: none;
+  padding: 5px;
+  background-color: aliceblue;
+  margin-right: -10px;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 45px;
+  padding-bottom: 15px;
+  width: 70%;
+}
+
+nav {
+  padding: 25px;
+  background-color: #fff;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 350px 500px 400px;
+}
+nav div {
+  display: flex;
+  gap: 15px;
+}
+nav div input {
+  width: 120px;
+  background-color: #fff;
+  border: rgb(243, 235, 235);
+}
+nav div img {
+  width: 40px;
+  margin-top: -5px;
+  height: 40px;
+}
+nav div h2 {
+  color: rgb(76, 74, 74);
+}
+nav ul {
+  display: flex;
+  padding-top: 5px;
+  gap: 35px;
+}
+nav ul li a {
+  color: rgb(100, 100, 100);
+}
+
+header, section {
+  gap: 35px;
+  display: grid;
+  padding: 150px 0px;
+  justify-content: center;
+  grid-template-columns: 42% 42%;
+}
+
+header {
+  background-color: rgb(240, 240, 240);
+}
+
+p {
+  color: rgb(46, 45, 45);
+  width: 85%;
+  line-height: 25px;
+  padding: 22px 0px;
+}
+
+pre {
+  color: rgb(80, 127, 192);
+  font-weight: 700;
+  font-size: large;
+}
+
+article {
+  background-color: rgba(222, 227, 228, 0.695);
+}
+article section {
+  justify-content: center;
+  display: flex;
+}
+article section div {
+  border-radius: 5px;
+  background-color: #fff;
+  width: 23%;
+  height: 40vh;
+  padding: 15px;
+}
+article section div h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+article h1 {
+  text-align: center;
+  margin-left: 200px;
+  padding-top: 100px;
+  margin-bottom: -70px;
+}
+
+.never {
+  border-bottom-right-radius: 210px;
+  height: 35vh;
+  background-color: rgba(230, 230, 230, 0.695);
+}
+.never ul li {
+  font-size: 18px;
+  margin: 23px 0px;
+}
+.never ul li img {
+  padding: 0px 8px;
+  margin-bottom: -6px;
+  width: 20px;
+}
+.never img {
+  margin-top: -20px;
+}
+
+#red {
+  background-color: indianred;
+  width: 160px;
+}
+#red p:nth-child(even) {
+  color: rgb(49, 133, 97);
+}
+
+aside {
+  background-color: rgb(56, 53, 53);
+}
+aside #head {
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+  margin-left: 185px;
+}
+aside .center {
+  color: gray;
+  margin-left: 370px;
+  text-align: center;
+  width: 48%;
+}
+aside h4 {
+  text-align: center;
+  display: inline-block;
+  padding: 38px;
+  margin-top: 29px;
+  color: #fff;
+}
+aside #s {
+  margin-left: 570px;
+}
+aside #img {
+  padding-top: 25px;
+  width: 35px;
+  margin-top: 35px;
+}
+aside h5 {
+  color: rgb(167, 163, 163);
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+aside h6 {
+  color: rgb(167, 163, 163);
+  font-size: 15px;
+  padding: 5px 0px 10px;
+}
+aside .line {
+  text-decoration: line-through;
+  color: gray;
+}
+aside .sec {
+  border-top: 4px indianred solid;
+  border-radius: 0;
+}
+aside .sec h5 {
+  display: inline-block;
+  padding-right: 148px;
+}
+aside .sec #reed {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: indianred;
+  width: 100px;
+  height: 30px;
+  font-size: 10px;
+  padding: 0px;
+}
+aside section {
+  margin-top: -140px;
+  display: flex;
+}
+aside section h1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+aside section h1 span {
+  font-weight: bolder;
+  font-size: 45px;
+}
+aside section div {
+  padding: 50px;
+  border-radius: 8px;
+  width: 20%;
+  background-color: #fff;
+  height: 58vh;
+}
+aside section div ul li {
+  margin: 20px 0px;
+  font-size: 16px;
+}
+aside section div ul li img {
+  padding: 0px 8px;
+  margin-bottom: -6px;
+  width: 20px;
+}
+aside #six {
+  text-align: center;
+  margin-top: -130px;
+  padding-bottom: 90px;
+  font-size: 16px;
+}
+aside #six span {
+  color: rgb(204, 204, 204);
+}
+
+#before {
+  border-bottom: rgba(183, 183, 183, 0.511) 2px solid;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+#before input {
+  width: 380px;
+  height: 40px;
+}
+#before h1 {
+  margin-left: 200px;
+}
+#before p {
+  color: rgba(82, 82, 82, 0.664);
+  width: 45%;
+  padding: -15px;
+  margin-left: 390px;
+}
+#before p img {
+  margin-top: 5px;
+  width: 15px;
+  padding: 0px 10px;
+}
+
+footer {
+  padding: 70px;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 350px 200px 200px 200px;
+}
+footer h6 {
+  color: gray;
+  margin-bottom: 28px;
+  font-size: 15px;
+}
+footer ul li {
+  padding: 15px 0px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: rgb(59, 59, 59);
+}
+footer p {
+  width: 90%;
+}
+footer #dv {
+  display: flex;
+  gap: 15px;
+}
+footer #dv img {
+  width: 40px;
+  margin-top: -5px;
+  height: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  nav ul, nav button, nav input {
+    display: none;
+  }
+  nav div {
+    margin-left: 470px;
+  }
+  nav div h2 {
+    font-size: 50px;
+  }
+  nav div img {
+    height: 70px;
+    width: 80px;
+  }
+  /*img{
+    width: 351.2px;
+    height: 242.24px;
+  }*/
+  header {
+    padding-left: 15px;
+    text-align: center;
+    width: 1000px;
+    display: block;
+  }
+  header div {
+    width: 1000px;
+  }
+  header div img {
+    position: relative;
+    top: -1220px;
+  }
+  h1 {
+    font-size: 65px;
+    width: 70%;
+  }
+  #first {
+    width: 1200px;
+    text-align: left;
+    position: relative;
+    top: 400px;
+  }
+  #first input, #first button {
+    display: block;
+    font-size: 40px;
+    width: 95%;
+    height: 125px;
+    margin: auto;
+    padding: 0px 15px;
+  }
+  p {
+    width: 80%;
+    font-size: 35px;
+    margin-left: 8px;
+    line-height: 50px;
+  }
+  section div #big {
+    height: 750px;
+    width: 1000px;
+  }
+  article {
+    width: 950px;
+    text-align: center;
+  }
+  article h1 {
+    margin: auto;
+  }
+  article section {
+    justify-content: center;
+    font-size: 40px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  article section div {
+    margin: auto;
+    width: 1300px;
+    padding: 45px;
+    height: 90vh;
+    width: 1000px;
+  }
+  article section div img {
+    width: 150px;
+  }
+  h1 {
+    font-size: 65px;
+    width: 70%;
+  }
+  pre {
+    font-size: 40px;
+    padding-top: 25px;
+  }
+  section {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section div {
+    padding-left: 25px;
+  }
+  .never {
+    margin-bottom: 1250px;
+  }
+  .never #ig {
+    position: relative;
+    top: -1160px;
+    width: 1100px;
+  }
+  .never #ii {
+    position: relative;
+    top: 600px;
+  }
+  .never ul li {
+    font-size: 45px;
+  }
+  .never ul li img {
+    width: 50px;
+  }
+  h1 {
+    margin-top: 150px;
+    font-size: 90px;
+  }
+  p {
+    font-size: 40px;
+    margin: 30px 0px;
+  }
+  #red {
+    width: 350px;
+    padding: 20px;
+    font-size: 40px;
+    height: 120px;
+  }
+  aside {
+    width: 1200px;
+  }
+  aside #six {
+    font-size: 50px;
+  }
+  aside .center {
+    margin-left: 280px;
+  }
+  aside h4 {
+    font-size: 50px;
+  }
+  aside #img {
+    margin-left: 30px;
+    width: 50px;
+  }
+  aside #s {
+    margin-left: 290px;
+  }
+  aside section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  aside section .sec #reed {
+    margin-left: 240px;
+    width: 300px;
+    border-radius: 40px;
+    font-size: 40px;
+    height: 80px;
+  }
+  aside section div {
+    width: 86%;
+    height: 150vh;
+  }
+  aside section div h6, aside section div h5 {
+    font-size: 45px;
+  }
+  aside section div button {
+    width: 350px;
+    font-size: 50px;
+    height: 100px;
+  }
+  aside section div ul {
+    margin-bottom: 70px;
+  }
+  aside section div ul li {
+    font-size: 40px;
+  }
+  aside section div ul li img {
+    width: 50px;
+  }
+  aside section div p {
+    padding: 20px 0px;
+    font-size: 50px;
+  }
+  aside section div h1 {
+    font-size: 90px;
+  }
+  aside section div h1 span {
+    font-size: 130px;
+  }
+  #before {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+  }
+  #before h1 {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 90px;
+    margin-left: 130px;
+  }
+  #before p {
+    font-size: 50px;
+    width: 100%;
+    margin-left: 70px;
+  }
+  #before p img {
+    width: 40px;
+    margin-top: 10px;
+  }
+  #before div input, #before div button {
+    display: block;
+    font-size: 40px;
+    width: 95%;
+    height: 155px;
+    margin: 25px auto;
+    padding: 0px 15px;
+  }
+  header {
+    width: 1190px;
+  }
+  section div {
+    width: 1190px;
+  }
+  article {
+    width: 1200px;
+  }
+  footer {
+    font-size: 30px;
+    display: flex;
+    width: 1000px;
+    justify-content: left;
+    flex-direction: column;
+  }
+  footer h6 {
+    padding-top: 40px;
+    font-size: 30px;
+  }
+  footer #dv {
+    padding: 20px;
+  }
+  footer #dv p {
+    font-size: 60px;
+  }
+  footer #dv h2 {
+    font-size: 50px;
+    margin-top: 40px;
+  }
+  footer #dv img {
+    width: 150px;
+    height: 150px;
+  }
+  pre {
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */
